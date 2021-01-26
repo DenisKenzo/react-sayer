@@ -23,8 +23,8 @@ let Posts = props => {
         return <div>
             <div className={style.posts}>
                 <SwipeableList threshold={0.3}>
-                {
-                    props.posts.map(p =>(
+                {props.posts.length > 0
+                  ?  props.posts.map(p =>(
                         <SwipeableListItem
                             key={p.id}
                             swipeLeft={swipeLeftOptions(p.id)}
@@ -37,6 +37,7 @@ let Posts = props => {
                             </div>
                         </SwipeableListItem>
                     ))
+                  : 'Nothing to show'
                 }
                 </SwipeableList>
             </div>

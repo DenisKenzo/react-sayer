@@ -17,7 +17,7 @@ import style from './new_post.module.scss'
         return <div>
             <HeaderContainer showButton text={textInHeader} newPost/>
             <div className={style.main_wrapper}>
-                <div className={style.input_wrap}>
+                <div>
                     <input placeholder='What on your mind..?' type='text' value={props.inputValueNewPost} onChange={e => props.handleChangeInputText(e.target.value)}/>
                 </div>
                 <div className={style.button_wrap}>
