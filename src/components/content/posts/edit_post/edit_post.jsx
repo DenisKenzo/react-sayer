@@ -27,7 +27,7 @@ let EditPost = props => {
             <div className={style.comments_block}>
                 {newPost.comments && newPost.comments.map(com => <div className={style.comments_list}>
                     <div className={style.avatar}></div>
-                    <div className={style.comment}>{com.comment_title}</div>
+                    <div>{com.comment_title}</div>
                 </div>)}
             </div>
             <div className={style.input_wrap}>
