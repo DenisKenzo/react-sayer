@@ -1,0 +1,23 @@
+
+.complex-swipeable-list__item-content-right {
+    background-color: #d4145a;
+    color: white;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.complex-swipeable-list__content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 22px;
+    width: 64px;
+    max-width: 64px;
+    text-align: center;
+    padding-right: 1rem;
+    font-weight: 400;
+}

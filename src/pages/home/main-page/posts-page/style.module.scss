@@ -1,0 +1,64 @@
+.single_post{
+  border-bottom: 1px solid gainsboro;
+  font-weight: bold;
+  color: #424242;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.count_wrap{
+  display: flex;
+  align-items: center;
+  padding-right: 1rem
+;
+}
+.post_name{
+  padding: 1.5rem 0 1.5rem 1rem;
+  max-width: 330px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #4d4d4d;
+  white-space: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.comments_count{
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color: #313464;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 50%;
+}
+.posts{
+  max-height: 420px;
+  overflow: scroll;
+}
+.add_post_button {
+  cursor: pointer;
+  color: #f3a1e9;
+  background-color: #d4145a;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-weight: 500;
+  font-size: 50px;
+  -webkit-box-shadow: 1px 4px 18px -2px #000000;
+  box-shadow: 1px 4px 18px -2px #000000;
+}
+.button_wrap{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+a{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 5px;
+  font-size: 24px;
+  max-width: 300px;
+}
+.main_wrapper{
+  display: flex;
+  padding: 1rem;
+}
+.button_wrap{
+  margin-left: 2rem;
+}
+.add_button {
+  cursor: pointer;
+  color: white;
+  background-color: #313464;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
