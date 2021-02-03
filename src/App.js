@@ -1,12 +1,12 @@
 import {BrowserRouter} from "react-router-dom";
-import Content from "./components/content/content";
+import Home from "./pages/home/index";
 
 
 function App() {
   return (
       <BrowserRouter>
         <div>
-            <Content/>
+            <Home/>
         </div>
       </BrowserRouter>
   );

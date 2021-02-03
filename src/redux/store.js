@@ -3,7 +3,7 @@ import {combineReducers, createStore} from "redux";
 
 
 let reducers = combineReducers({
-    main_page: mainReducer
+    posts: mainReducer
 })
 
 let store = createStore(reducers)
